@@ -1,0 +1,335 @@
+body {
+  overflow-x: hidden;
+
+}
+
+.hero-head {
+  font-family: 'Roboto', sans-serif;
+  background-image: url("../images/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.header-content span {
+  color: white;
+}
+
+.main-h1 {
+  font-size: 60px;
+  line-height: 77px;
+  font-weight: bold;
+  color: #42c366;
+}
+
+.main-landing {
+  color: #1f1716;
+  font-size: 51px;
+  line-height: 70px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+}
+
+.main-para {
+  color: #1f1716;
+  font-size: 17px;
+  line-height: 28px;
+  padding-bottom: 18px;
+  width: 75%;
+}
+
+.main-btn {
+  font-size: 16px;
+  background-color: #1f1716;
+  color: #fff;
+  padding: 10px 0px;
+  width: 100%;
+  max-width: 190px;
+  text-align: center;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+
+.main-img img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+#services {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.services i {
+  background: #fff;
+  width: 120px;
+  height: 120px;
+  border-radius: 100px;
+  border: #41c365 solid 4px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.services h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+}
+
+.services p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  line-height: 30px;
+
+}
+
+
+.about {
+  background: #d5ede0;
+  padding-bottom: 60px;
+
+}
+
+.title {
+  padding: 80px 0 60px 0;
+
+}
+
+.title h2 {
+  font-family: 'Poppins',
+    sans-serif;
+  font-weight: bolder;
+  font-size: 45px;
+
+}
+
+
+.figimg img {
+  max-width: 100%;
+  height: auto;
+  float: right;
+  margin-bottom: 20px;
+}
+
+
+.description h3 {
+  font-family: 'poppins', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.description p {
+  font-family: 'poppins', sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 35px;
+  margin-bottom: 10px;
+  position: relative;
+  text-align: left;
+}
+
+.description button {
+  font-size: 17px;
+  font-weight: 500;
+  background-color: transparent;
+  border: #41c365 solid 2px;
+  text-transform: uppercase;
+  color: #41c365;
+  padding: 10px 40px 10px 40px;
+  text-decoration: none;
+  padding-bottom: auto;
+
+}
+
+.testimonial {
+  padding: 90px 0px 90px;
+}
+
+.testimonial h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 40px;
+  padding-bottom: 20px;
+}
+
+.color {
+  color: #42c366;
+
+}
+
+.testimonial p {
+  font-size: 15px;
+  line-height: 38x;
+  font-family: 'Roboto',
+    sans-serif;
+  padding: 10px 10px 40px 10px;
+}
+
+.card-testimoial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+
+}
+
+.content {
+  text-align: center;
+  background-color: #41c365;
+  padding: 10px;
+  border-radius: 20px;
+  width: 360px;
+  height: 270px;
+  margin-right: 10px;
+
+}
+
+.content span {
+  background-color: #ddd;
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  display: inline-block;
+
+}
+
+.content h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  line-height: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.content p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  line-height: 26px;
+  color: #fff;
+}
+
+.testimonial-spam {
+  background-color: #42c366;
+  width: 25px;
+  height: 25px;
+  border-radius: 30px;
+  display: inline-block;
+  margin: 5px;
+
+}
+
+.black {
+  background-color: black;
+}
+
+.asked_main h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 42px;
+  line-height: 40px;
+  font-weight: 600;
+  text-align: right;
+  letter-spacing: 0.2rem;
+  padding: 0px 70px 50px 0px
+}
+
+.ask_img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.ask-content p {
+  width: 67%;
+  border: #41c365 solid 2px;
+  line-height: 20px;
+  padding: 10px;
+
+
+}
+
+.ask-content span {
+  font-size: 30px;
+  color: #41c365;
+  float: right;
+}
+
+.contact {
+  background-image: url("../images/contact_bg.jpg");
+  padding: 90px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.titlepage h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 45px;
+  font-weight: bolder;
+  color: white;
+  padding-bottom: 90px;
+}
+
+.contact-content span {
+  font-family: 'Poppins',
+    sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 80px;
+  color: white;
+  display: inline-block;
+  padding-bottom: 65px;
+}
+
+.download-btn button {
+  font-size: 20px;
+  background-color: #fff;
+  color: #41c365;
+  width: 100%;
+  max-width: 275px;
+  padding: 7px 0px;
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+
+.main-form {
+  background: white;
+  padding: 55px 40px;
+  width: 80%;
+}
+
+.contactus {
+  border-bottom: #000 solid 1px;
+  padding: 0px 1px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 52px;
+  background: #fff;
+  color: #999999;
+  font-size: 16px;
+  border-top: inherit;
+  border-right: inherit;
+  border-left: inherit;
+}
+
+.send {
+  font-size: 16px;
+  background-color: #000;
+  color: #fff;
+  padding: 12px 70px;
+  margin: 0 auto;
+  display: block;
+}

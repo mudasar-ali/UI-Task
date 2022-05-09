@@ -1,0 +1,101 @@
+@media (max-width: 830px) {
+  .hero-head {
+    background: #bccec4;
+    padding: 10px;
+  }
+
+  .main-h1 {
+    font-size: 35px;
+    line-height: 45px;
+    padding-bottom: 18px;
+  }
+
+  .main-landing {
+    font-size: 35px;
+    line-height: 45px;
+    padding-bottom: 18px;
+  }
+
+  .main-para {
+    width: 100%;
+  }
+
+  .main-img {
+    padding-top: 32px;
+    padding-bottom: 64px;
+  }
+
+  .services p {
+    font-size: 16px;
+    padding-bottom: 15px;
+
+  }
+
+  .services h3 {
+    font-size: 25px;
+    padding: 0%;
+    margin: 0%;
+
+  }
+
+  .description p {
+    width: 100%;
+  }
+
+  .description button {
+    margin-bottom: 30px;
+  }
+
+  .content {
+    width: 100%;
+    padding: 10px 0px 0px 0px;
+    ;
+    height: 250px;
+  }
+
+  .asked_main h2 {
+    font-size: 24px;
+    text-align: center;
+    padding: 0px 0px 50px 0px;
+
+  }
+
+  .figimg {
+    padding-right: 10px;
+  }
+
+  .ask-content p {
+    width: 100%;
+  }
+
+  .titlepage h2 {
+    font-size: 30px;
+    padding-bottom: 30px;
+  }
+
+  .contact span {
+    font-size: 32px;
+    line-height: 40px;
+    padding-bottom: 25px;
+  }
+
+  .main-form {
+    width: 100%;
+  }
+}
+
+
+@media (max-width:991px) {
+  .services h3 {
+    font-size: 25px;
+
+  }
+
+
+}
+
+@media (min-width:832px) and (max-width :1386px) {
+  .ask-content p {
+    width: 75%;
+  }
+}
