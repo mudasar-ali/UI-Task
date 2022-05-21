@@ -1,4 +1,4 @@
-@media (max-width: 830px) {
+@media (max-width: 768px) {
   .hero-head {
     background: #bccec4;
     padding: 10px;
@@ -49,11 +49,23 @@
   .content {
     width: 100%;
     padding: 10px 0px 0px 0px;
-    height: 250px;
+
+  }
+
+  .testimonial h2 {
+    font-size: 2rem;
+  }
+
+
+
+  .testimonial p {
+    font-size: 1.1rem;
+    line-height: 28px;
+    padding: 0px 20px 0px 20px;
   }
 
   .asked_main h2 {
-    font-size: 24px;
+    font-size: 1.1rem;
     text-align: center;
     padding: 0px 0px 50px 0px;
 
@@ -63,9 +75,6 @@
     padding-right: 10px;
   }
 
-  .ask-content p {
-    width: 100%;
-  }
 
   .titlepage h2 {
     font-size: 30px;
@@ -91,10 +100,4 @@
   }
 
 
-}
-
-@media (min-width:832px) and (max-width :1386px) {
-  .ask-content p {
-    width: 75%;
-  }
 }

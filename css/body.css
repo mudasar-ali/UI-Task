@@ -1,7 +1,7 @@
-body {
+/* body {
   overflow-x: hidden;
 
-}
+} */
 
 .hero-head {
   font-family: 'Roboto', sans-serif;
@@ -191,7 +191,7 @@ body {
   padding: 10px;
   border-radius: 20px;
   width: 360px;
-  height: 270px;
+  height: auto;
   margin-right: 10px;
 
 }
@@ -243,7 +243,7 @@ body {
   font-weight: 600;
   text-align: right;
   letter-spacing: 0.2rem;
-  padding: 0px 70px 50px 0px
+  padding-bottom: 50px;
 }
 
 .ask_img img {
@@ -252,7 +252,6 @@ body {
 }
 
 .ask-content p {
-  width: 67%;
   border: #41c365 solid 2px;
   line-height: 20px;
   padding: 10px;
@@ -325,11 +324,14 @@ body {
   border-left: inherit;
 }
 
-.send {
+.send button {
+
   font-size: 16px;
   background-color: #000;
   color: #fff;
-  padding: 12px 70px;
-  margin: 0 auto;
-  display: block;
+  width: 100%;
+  max-width: 180px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 30px;
 }
